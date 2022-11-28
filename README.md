@@ -7,3 +7,5 @@
     2. add img of each product
     3. render products
     4. style products
+
+3. Add routing

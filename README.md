@@ -15,4 +15,5 @@
 7. Adding Bootstrap UI
 8. Create Product and Rating Component
 9. Create Product details 
+10. Create Loading and Message Component
 

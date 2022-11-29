@@ -17,4 +17,5 @@
 9. Create Product details 
 10. Create Loading and Message Component
 11. Implement add to cart using react context
+12. Complete add to cart functionality
 

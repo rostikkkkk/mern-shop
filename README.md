@@ -16,4 +16,5 @@
 8. Create Product and Rating Component
 9. Create Product details 
 10. Create Loading and Message Component
+11. Implement add to cart using react context
 

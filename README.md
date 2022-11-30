@@ -18,4 +18,7 @@
 10. Create Loading and Message Component
 11. Implement add to cart using react context
 12. Complete add to cart functionality
+13. Create signIn screen
+14. Connect to MongoDB
+
 

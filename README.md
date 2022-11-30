@@ -21,5 +21,6 @@
 13. Create signIn screen
 14. Connect to MongoDB
 15. Seed Sample data
+16. Seed Sample users
 
 

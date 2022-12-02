@@ -23,5 +23,6 @@
 15. Seed Sample data
 16. Seed Sample users
 17. Create backend api for authentication
+18. Implement Select Payment Method
 
 

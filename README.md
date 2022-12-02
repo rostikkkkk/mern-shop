@@ -30,5 +30,8 @@
 22. Create order by paypal
 23. Create order history functionality
 24. Create User profile screen
+25. Publish to Heroku
+26. Add Sidebar and Search Box
+27. Create Search Screen
 
 

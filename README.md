@@ -28,5 +28,7 @@
 20. Implement Place Order functionality
 21. Create order screen functionality
 22. Create order by paypal
+23. Create order history functionality
+24. Create User profile screen
 
 

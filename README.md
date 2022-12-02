@@ -27,5 +27,6 @@
 19. Create Place Order Screen 
 20. Implement Place Order functionality
 21. Create order screen functionality
+22. Create order by paypal
 
 

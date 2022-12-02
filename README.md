@@ -24,5 +24,7 @@
 16. Seed Sample users
 17. Create backend api for authentication
 18. Implement Select Payment Method
+19. Create Place Order Screen 
+20. Implement Place Order functionality
 
 

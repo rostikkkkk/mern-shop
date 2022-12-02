@@ -7,6 +7,8 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Store } from "../Store";
 import { getError } from "../utils";
+import CheckoutSteps from "../components/CheckoutSteps";
+import React from "react";
 
 export default function SigninScreen() {
   const navigate = useNavigate();
@@ -45,6 +47,7 @@ export default function SigninScreen() {
       <Helmet>
         <title>Sign In</title>
       </Helmet>
+      <CheckoutSteps step1></CheckoutSteps>
       <h1 className="my-3">Sign In</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group

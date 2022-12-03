@@ -36,4 +36,6 @@
 28. Create Admin menu
 29. Create Dashboard Screen
 30. Manage Products
+31. Create Product and product edit 
+32. 
 

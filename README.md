@@ -35,4 +35,5 @@
 27. Create Search Screen
 28. Create Admin menu
 29. Create Dashboard Screen
+30. Manage Products
 

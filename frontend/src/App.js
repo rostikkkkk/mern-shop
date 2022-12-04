@@ -31,6 +31,7 @@ import ProductEditScreen from "./screens/ProductEditScreen";
 import OrderListScreen from "./screens/OrderListScreen";
 import UserListScreen from "./screens/UserListScreen";
 import UserEditScreen from "./screens/UserEditScreen";
+import { MDBFooter, MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -79,7 +80,7 @@ function App() {
                 <i className="fas fa-bars" />
               </Button>
               <LinkContainer to="/">
-                <Navbar.Brand>amazon</Navbar.Brand>
+                <Navbar.Brand>MERN-SHOP</Navbar.Brand>
               </LinkContainer>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -253,10 +254,44 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <footer>
-          <div className="text-center">All rights reserved</div>
-        </footer>
       </div>
+      {/*<footer className="bg-light text-center text-lg-start">*/}
+      {/*  <div className="text-center p-3">All rights reserved.</div>*/}
+      {/*</footer>*/}
+      <MDBFooter bgColor="light" className="text-center text-lg-left">
+        <MDBContainer className="p-4">
+          <MDBRow>
+            <MDBCol lg="6" md="12" className="mb-4 mb-md-0">
+              <h5 className="text-uppercase">About us</h5>
+
+              <p>
+                Planned and fast delivery of goods from the "mern-shop" store
+                throughout Ukraine, a unique assortment of goods, care for each
+                Guest - all this and much more is available in our "mern-shop"
+                online store
+              </p>
+            </MDBCol>
+
+            <MDBCol lg="6" md="12" className="mb-4 mb-md-0">
+              <h5 className="text-uppercase">More info</h5>
+
+              <p>
+                In our store you can always safely order what you are interested
+                in. All goods must be checked for defects or any defects before
+                shipment. We follow fashion trends and always try to supplement
+                the range with popular, stylish models.
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+
+        <div
+          className="text-center p-3"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+        >
+          All rights reserved. 2022 mern-shop
+        </div>
+      </MDBFooter>
     </BrowserRouter>
   );
 }

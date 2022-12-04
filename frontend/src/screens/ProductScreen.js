@@ -231,7 +231,7 @@ function ProductScreen() {
                 <Button disabled={loadingCreateReview} type="submit">
                   Submit
                 </Button>
-                {loadingCreateReview && <LoadingBox></LoadingBox>}
+                {loadingCreateReview && <LoadingBox />}
               </div>
             </form>
           ) : (

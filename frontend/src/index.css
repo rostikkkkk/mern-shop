@@ -17,8 +17,8 @@ main {
 
 .btn-primary,
 .btn-outline-primary {
-    background-color: #f0c040;
-    color: #282c34;
+    background-color: #66d1c1;
+    color: #bef7ee;
 }
 
 .products {
@@ -76,8 +76,13 @@ main {
     height: 100%;
     position: absolute;
     left: -300px;
-    background-color: #100901;
+    background-color: #66d1c1;
     transition: 0.5s;
+}
+
+.side-navbar a {
+    color: #fafafa;
+    font-weight: bold;
 }
 
 .site-container {

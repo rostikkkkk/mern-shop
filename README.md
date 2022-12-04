@@ -44,3 +44,4 @@
 36. Delete Order
 37. Create List Users
 38. Create edit users
+39. Delete User

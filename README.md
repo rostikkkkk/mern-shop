@@ -40,3 +40,5 @@
 32. Upload Product Img
 33. Delete Product
 34. Create order list screen
+35. Create deliver order
+36. Delete Order
